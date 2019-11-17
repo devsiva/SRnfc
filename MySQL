@@ -1,0 +1,57 @@
+/*
+SQLyog Community v12.02 (32 bit)
+MySQL - 5.5.29 : Database - staff
+*********************************************************************
+*/
+
+
+/*!40101 SET NAMES utf8 */;
+
+/*!40101 SET SQL_MODE=''*/;
+
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+CREATE DATABASE /*!32312 IF NOT EXISTS*/`staff` /*!40100 DEFAULT CHARACTER SET latin1 */;
+
+USE `staff`;
+
+/*Table structure for table `customers` */
+
+DROP TABLE IF EXISTS `customers`;
+
+CREATE TABLE `customers` (
+  `Id` int(11) NOT NULL AUTO_INCREMENT,
+  `Name` varchar(255) DEFAULT NULL,
+  `Age` varchar(255) DEFAULT NULL,
+  `Gen` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`Id`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
+
+/*Data for the table `customers` */
+
+insert  into `customers`(`Id`,`Name`,`Age`,`Gen`) values (1,'Peter','23','M'),(2,'Amy','24','M'),(3,'Hannah','21','F'),(4,'Michael','45','M'),(5,'Sandy','26','M');
+
+/*Table structure for table `tag` */
+
+DROP TABLE IF EXISTS `tag`;
+
+CREATE TABLE `tag` (
+  `id` int(200) NOT NULL AUTO_INCREMENT,
+  `tag` varchar(200) DEFAULT NULL,
+  `name` varchar(200) DEFAULT NULL,
+  `gender` varchar(100) DEFAULT NULL,
+  `mailid` varchar(200) DEFAULT NULL,
+  `datetime` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=latin1;
+
+/*Data for the table `tag` */
+
+insert  into `tag`(`id`,`tag`,`name`,`gender`,`mailid`,`datetime`) values (1,'ACBD022','karthick','Male','1croreprojects.ns2team@gmail.com','2019-08-30 15:03:18'),(2,'9CED0B2','mouli','Male','1croreprojects.ns2team@gmail.com','2019-08-30 12:12:43'),(3,'6CC6FD2','manoj','Male','1croreprojects.ns2team@gmail.com','2019-08-30 15:02:55'),(4,'CCC0FA2','vidhya','Female','1croreprojects.ns2team@gmail.com','2019-08-30 15:03:45'),(5,'DCA6F72','padma','Female','1croreprojects.ns2team@gmail.com','2019-08-30 12:19:38');
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
