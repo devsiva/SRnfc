@@ -1,0 +1,13 @@
+For windows we need WinUSB and libUSB. 
+    To install libUSB(windows)
+we need to install manually both WinUSB and libUSB. Microsoft provides the guidelines for the installation for WinUSB. 
+
+Then we need to install libusb 
+  • Download libusb (Downloads -> Latest Windows Binaries). 
+. • For 32-bit Windows: – Copy MS32\dll\libusb-1.0.dll to C:\Windows\System32.
+After installing the WinUSB an libUSB we need to install latest version of python.
+
+Python 2.7 is used in my poject,because NFC is not supported by python 3. Once python is installed use pip method to install latest version of NFCpy.
+$ Pip install -U nfcpy
+Then we need to configure the path, otherwise we cannot access the pip in command line.     
+For example, C:/python2.7/scripts/pip.exe
