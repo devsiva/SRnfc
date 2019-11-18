@@ -24,3 +24,4 @@ time, if the time is within the limit it marks as present otherwise it marks as 
 The MYSQL database is used to store the details of the student and the attendance details of each student. 
 At the given time the system checks the attendance file, if there is any student absent an email is sent to their parent. To send an email
 to the parents, Simple Mail Transfer Protocol (SMTP) is used. 
+
