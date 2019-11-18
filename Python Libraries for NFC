@@ -11,3 +11,45 @@ Python 2.7 is used in my poject,because NFC is not supported by python 3. Once p
 $ Pip install -U nfcpy
 Then we need to configure the path, otherwise we cannot access the pip in command line.     
 For example, C:/python2.7/scripts/pip.exe
+
+
+MySQL connector used to connect the python and MySQL. For that we need to import the MySQL connector.
+
+import mysql.connector
+mydb = mysql.connector.connect(  host="localhost",  user="root",  passwd="root",  database="staff")
+staff --- database name 
+
+Date and Time
+
+import datetime
+mycursor = mydb.cursor()
+currentDT = datetime.datetime.now()
+vk = currentDT.strftime("%Y-%m-%d %H:%M:%S")
+print (vk)
+
+Simple Mail Transfer Protocol
+import smtplib
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
+from email.mime.base import MIMEBase
+from email import encoders
+
+email_user = 'ssr19.bbk@gmail.com'
+email_password = 'student@bbk'
+email_send = email
+
+subject = 'subject'
+
+msg = MIMEMultipart()
+msg['From'] = email_user
+msg['To'] = email_send
+msg['Subject'] = subject
+
+body = 'Dear Parent \n Your child : '+name+ ' is Late and marked as absent for morning session'
+msg.attach(MIMEText(body,'plain'))
+
+text = msg.as_string()
+server = smtplib.SMTP('smtp.gmail.com',587)
+server.starttls()
+server.login(email_user,email_password)
+
