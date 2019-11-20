@@ -11,7 +11,7 @@ Reader: USB NFC reader(ACR122U),
 Smartcards : MIFARE 1K cards,
 Simple Mail Transfer Protocal is used to send an email to parents.
 
-Despription:
+Description:
  
 The purpose of this project is to track the student’s in time and out time from school. This can be achieved by using NFC reader. 
 NFC is a branch of high frequency RFID and both operate at the frequency of 13.56MHz.NFC is designed to be a secure form of data exchange,
@@ -27,3 +27,6 @@ to the parents, Simple Mail Transfer Protocol (SMTP) is used.
 
 The link below expalins the latest nfcpy documentation and how to use it.
 https://buildmedia.readthedocs.org/media/pdf/nfcpy/latest/nfcpy.pdf
+
+Note:
+To run the code, we need USB NFC reader(ACR122U) and MIFARE classic 1K smart cards.
