@@ -25,7 +25,7 @@ The MYSQL database is used to store the details of the student and the attendanc
 At the given time the system checks the attendance file, if there is any student absent an email is sent to their parent. To send an email
 to the parents, Simple Mail Transfer Protocol (SMTP) is used. 
 
-The link below expalins the latest nfcpy documentation and how to use it.
+The link below expalins the latest nfcpy documentation and how to use it.   
 https://buildmedia.readthedocs.org/media/pdf/nfcpy/latest/nfcpy.pdf
 
 Note:
