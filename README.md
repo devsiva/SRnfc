@@ -14,22 +14,35 @@ Smartcards : MIFARE 1K cards,
 Simple Mail Transfer Protocal is used to send an email to parents.
 
 ## Libraries
-Python is an open source library, we can import files from it.For NFC we need to use nfcpy library. For windows we need libUSB and winUSB to use USB NFC reader.
-libraries for NFC
+Python is an open source library, we can import files from it.For NFC we need to use nfcpy library. 
+### Windows 
+For windows we need WinUSB and libUSB. 
+### Date and time
+import date and time for current date and time
+### SMTP
+import smtplib is a library for SMTP. We can retrieve files from it.
+## Installations
+   ### To install libUSB(windows)
+  • Download libusb (Downloads -> Latest Windows Binaries). 
+  
+. • For 32-bit Windows: – Copy MS32\dll\libusb-1.0.dll to C:\Windows\System32.
+After installing the WinUSB and libUSB we need to install latest version of python.
 
-## Description
- 
-The purpose of this project is to track the student’s in time and out time from school. This can be achieved by using NFC reader. 
-NFC is a branch of high frequency RFID and both operate at the frequency of 13.56MHz.NFC is designed to be a secure form of data exchange,
-and the NFC device is capable of being both an NFC reader and an NFC tag. It can be used for Peer to Peer communication.
- 
-The NFC reader is placed at the school entrance. For each student a separate Smartcard (ID)s were given. 
-Once they entered the school they need to wave or touch the card in the NFC reader. The NFC reader detects the student ID and checks the 
-time, if the time is within the limit it marks as present otherwise it marks as absent and stored in separate table (attendance table).
+### Python and NFCpy
+Python 2.7 is used in this poject,because NFC is not supported by python 3. Once python is installed use pip method to install latest version of NFCpy.
 
-The MYSQL database is used to store the details of the student and the attendance details of each student. 
-At the given time the system checks the attendance file, if there is any student absent an email is sent to their parent. To send an email
-to the parents, Simple Mail Transfer Protocol (SMTP) is used. 
+$ Pip install -U nfcpy
+
+Then we need to configure the path, otherwise we cannot access the pip in command line.     
+For example, C:/python2.7/scripts/pip.exe
+
+### Database
+import mysql.connector
+
+MySQL connector used to connect the python and MySQL.
+
+## For Implementation
+See the Libraries for nfc and nfc.py file 
 
 ## Links
 
@@ -41,6 +54,8 @@ https://i.ebayimg.com/images/g/oRwAAOSwC~9cRkJZ/s-l300.jpg
 
 #### Note
 To run the code, we need USB NFC reader(ACR122U) and MIFARE classic 1K smart cards.
+The sender email account is set to less secure. i.e turn on less secure app in setting otherwise an email cannot send to parents.
+The gmail account is used.
 
 ## Sample Output
 
