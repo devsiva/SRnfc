@@ -1,7 +1,8 @@
-Hi, 
-I am Sivagami.
 
-Here I am going to discuss about my project, which is School Security System using NFC reader and its a prototype project.
+
+Title
+
+School Security System Using USB NFC reader
 
 Requirements:
 
