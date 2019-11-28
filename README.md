@@ -37,18 +37,6 @@ To run the code, we need USB NFC reader(ACR122U) and MIFARE classic 1K smart car
 
 ![image](https://user-images.githubusercontent.com/46959439/69805529-be356580-11d8-11ea-9773-5713a269da34.png)
 
-2019-11-28 10:30:28        # Date and Time
-
-6CC6FD2	                   #	Smart card ID
-
-3			                       # Register number where details of the students are stored 
-
-Kreethi		                  #	Name of the student
-
-sivagamink@gmail.com       # Parent email-id
-
-Late and marked as absent for morning session  # Message sent to parent
-
 ## Future work:
 
 I am planning to create the webpage for school and update the information about the child when their card touches the NFC reader. Through the website parents can login into the system and view their child attendance status (in-time and out-time).
