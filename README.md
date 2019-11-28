@@ -1,6 +1,6 @@
 # School Security System Using USB NFC reader
 
-## Requirements:
+## Requirements
 
 Database: MySQL,
 Domain: Python,
@@ -8,7 +8,7 @@ Reader: USB NFC reader(ACR122U),
 Smartcards : MIFARE 1K cards,
 Simple Mail Transfer Protocal is used to send an email to parents.
 
-## Description:
+## Description
  
 The purpose of this project is to track the student’s in time and out time from school. This can be achieved by using NFC reader. 
 NFC is a branch of high frequency RFID and both operate at the frequency of 13.56MHz.NFC is designed to be a secure form of data exchange,
@@ -30,14 +30,14 @@ https://buildmedia.readthedocs.org/media/pdf/nfcpy/latest/nfcpy.pdf
 The USB NFC reader which i used is shown in the below link:                                 
 https://i.ebayimg.com/images/g/oRwAAOSwC~9cRkJZ/s-l300.jpg
 
-#### Note:
+#### Note
 To run the code, we need USB NFC reader(ACR122U) and MIFARE classic 1K smart cards.
 
-## Sample Output:
+## Sample Output
 
 ![image](https://user-images.githubusercontent.com/46959439/69805529-be356580-11d8-11ea-9773-5713a269da34.png)
 
-## Future work:
+## Future work
 
 I am planning to create the webpage for school and update the information about the child when their card touches the NFC reader. Through the website parents can login into the system and view their child attendance status (in-time and out-time).
 And also I am planning to implement this application in different operating systems. Enabling this application in android, iOS or windows phone, it reduces the carrying of PC or laptop and USB connected NFC reader. The staff can just use their phones to operate the NFC reader.
