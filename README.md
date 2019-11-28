@@ -15,6 +15,7 @@ Simple Mail Transfer Protocal is used to send an email to parents.
 
 ## Libraries
 Python is an open source library, we can import files from it.For NFC we need to use nfcpy library. For windows we need libUSB and winUSB to use USB NFC reader.
+libraries for NFC
 
 ## Description
  
