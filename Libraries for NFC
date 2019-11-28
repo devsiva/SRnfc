@@ -14,6 +14,9 @@ currentDT = datetime.datetime.now()
 vk = currentDT.strftime("%Y-%m-%d %H:%M:%S")
 print (vk)
 
+![image](https://user-images.githubusercontent.com/46959439/69834830-e05cd100-1234-11ea-9b13-b38fa85c7609.png)
+
+
 
 ## Simple Mail Transfer Protocol
 
