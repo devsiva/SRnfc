@@ -35,6 +35,8 @@ To run the code, we need USB NFC reader(ACR122U) and MIFARE classic 1K smart car
 
 ## Sample Output:
 
+![image](https://user-images.githubusercontent.com/46959439/69805529-be356580-11d8-11ea-9773-5713a269da34.png)
+
 2019-11-28 10:30:28        # Date and Time
 
 6CC6FD2	                   #	Smart card ID
