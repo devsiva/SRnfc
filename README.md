@@ -43,7 +43,8 @@ Kreethi		                  #	Name of the student
 sivagamink@gmail.com       # Sender email-id
 Late and marked as absent for morning session  # Message sent to parent
 
-Future works
+Future work:
+
 I am planning to create the webpage for school and update the information about the child when their card touches the NFC reader. Through the website parents can login into the system and view their child attendance status (in-time and out-time).
 And also I am planning to implement this application in different operating systems. Enabling this application in android, iOS or windows phone, it reduces the carrying of PC or laptop and USB connected NFC reader. The staff can just use their phones to operate the NFC reader.
 This application is for ACR122U USB NFC reader. The future work would be extended to check the type of NFC and compatible with other USB NFC reader and smartcards.
