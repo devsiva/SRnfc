@@ -44,7 +44,7 @@ Sample Output:
 
 Kreethi		                  #	Name of the student
 
-sivagamink@gmail.com       # Sender email-id
+sivagamink@gmail.com       # Parent email-id
 
 Late and marked as absent for morning session  # Message sent to parent
 
