@@ -30,7 +30,7 @@ https://buildmedia.readthedocs.org/media/pdf/nfcpy/latest/nfcpy.pdf
 The USB NFC reader which i used is shown in the below link:                                 
 https://i.ebayimg.com/images/g/oRwAAOSwC~9cRkJZ/s-l300.jpg
 
-####Note:
+#### Note:
 To run the code, we need USB NFC reader(ACR122U) and MIFARE classic 1K smart cards.
 
 ## Sample Output:
