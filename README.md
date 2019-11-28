@@ -23,9 +23,9 @@ import date and time for current date and time
 import smtplib is a library for SMTP. We can retrieve files from it.
 ## Installations
    ### To install libUSB(windows)
-  • Download libusb (Downloads -> Latest Windows Binaries). 
+   Download libusb (Downloads -> Latest Windows Binaries). 
   
-. • For 32-bit Windows: – Copy MS32\dll\libusb-1.0.dll to C:\Windows\System32.
+.  For 32-bit Windows: – Copy MS32\dll\libusb-1.0.dll to C:\Windows\System32.
 After installing the WinUSB and libUSB we need to install latest version of python.
 
 ### Python and NFCpy
