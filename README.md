@@ -37,10 +37,15 @@ To run the code, we need USB NFC reader(ACR122U) and MIFARE classic 1K smart car
 Sample Output:
 
 2019-11-28 10:30:28        # Date and Time
+
 6CC6FD2	                   #	Smart card ID
+
 3			                       # Register number where details of the students are stored 
+
 Kreethi		                  #	Name of the student
+
 sivagamink@gmail.com       # Sender email-id
+
 Late and marked as absent for morning session  # Message sent to parent
 
 Future work:
