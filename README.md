@@ -1,12 +1,20 @@
 # School Security System Using USB NFC reader
 
-## Requirements
+## Introduction
+Nowadays, parents are worried about their children because of kidnapping and illegal activities by the children. Parents have long working hours, so they have less time to spend for their children. School has to take responsiblity to look after their students in school time (in-time and out-time) and update the details to their parents.
 
+## Aim of the Project
+The aim of this project is to create a security system for the students. This can be achieved by using NFC reader and NFC tags. NFC reader is smartcard reader used to reader the student card(smartcard) and store the details in a text file. Based on the text file an automatic email is send to the parents whose child is late or absent to the school. The student details are stored in MYSQL database. This reduce the worries among the parents regarding their child safety and they also know their child’s attendance details. With the help of SMTP transfer protocol, we can send email to parents.
+
+## Requirements
 Database: MySQL,
 Domain: Python,
 Reader: USB NFC reader(ACR122U),
 Smartcards : MIFARE 1K cards,
 Simple Mail Transfer Protocal is used to send an email to parents.
+
+## Libraries
+Python is an open source library, we can import files from it.For NFC we need to use nfcpy library. For windows we need libUSB and winUSB to use USB NFC reader.
 
 ## Description
  
