@@ -28,5 +28,7 @@ to the parents, Simple Mail Transfer Protocol (SMTP) is used.
 The link below expalins the latest nfcpy documentation and how to use it.   
 https://buildmedia.readthedocs.org/media/pdf/nfcpy/latest/nfcpy.pdf
 
+https://i.ebayimg.com/images/g/oRwAAOSwC~9cRkJZ/s-l300.jpg
+
 Note:
 To run the code, we need USB NFC reader(ACR122U) and MIFARE classic 1K smart cards.
