@@ -42,7 +42,7 @@ import mysql.connector
 MySQL connector used to connect the python and MySQL.
 
 ## For Implementation
-See the Libraries for nfc and nfc.py file 
+See the Libraries for NFC file and nfc.py file in this repository
 
 ## Links
 
