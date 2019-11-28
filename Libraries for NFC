@@ -1,10 +1,12 @@
+#Importing Libaries
 
+##Mysql
 
 import mysql.connector
 mydb = mysql.connector.connect(  host="localhost",  user="root",  passwd="root",  database="staff")
 staff --- database name 
 
-Date and Time
+## Date and Time
 
 import datetime
 mycursor = mydb.cursor()
@@ -12,7 +14,9 @@ currentDT = datetime.datetime.now()
 vk = currentDT.strftime("%Y-%m-%d %H:%M:%S")
 print (vk)
 
-Simple Mail Transfer Protocol
+
+## Simple Mail Transfer Protocol
+
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
