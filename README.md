@@ -43,4 +43,6 @@ I am planning to create the webpage for school and update the information about 
 And also I am planning to implement this application in different operating systems. Enabling this application in android, iOS or windows phone, it reduces the carrying of PC or laptop and USB connected NFC reader. The staff can just use their phones to operate the NFC reader.
 This application is for ACR122U USB NFC reader. The future work would be extended to check the type of NFC and compatible with other USB NFC reader and smartcards.
 
-Outcome of adopting this application in school,  reduces the worries among parents (no need to worry about their child in school time) and also the staff who manually monitor the student attendance.
+## Outcome of adopting this application in school
+
+Reduces the worries among parents (no need to worry about their child in school time) and also the staff who manually monitor the student attendance.
